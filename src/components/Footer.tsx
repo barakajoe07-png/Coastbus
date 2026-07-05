@@ -37,9 +37,6 @@ export default function Footer() {
             <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" className="h-7" />
           </button>
         </div>
-        <a href="/source-code.zip" download className="block mt-4 text-xs text-gray-400 hover:text-white transition-colors">
-            Download Source Code
-        </a>
       </div>
 
       <div className="w-full h-px bg-gray-700/50 mb-8" />
