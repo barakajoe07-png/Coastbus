@@ -2,12 +2,12 @@ import { Facebook, Twitter, Linkedin, Mail } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white pt-12 pb-28 px-5 flex flex-col items-center text-center">
+    <footer className="bg-[#1a1a1a] text-white pt-12 pb-28 px-5 flex flex-col items-center text-center">
       <div className="flex flex-col items-center mb-10 gap-6">
-        <img src="/tahmeed-logo.png" alt="Tahmeed Logo" className="h-10 object-contain" />
+        <img src="/buscar-logo.png" alt="Buscar Logo" className="h-10 object-contain" />
 
         {/* Travler Logo */}
-        <div className="text-3xl font-black flex items-center tracking-tight text-gray-400 mt-2 opacity-80">
+        <div className="text-3xl font-black flex items-center tracking-tight text-[#36498c] mt-2">
           <div className="relative flex flex-col items-center mr-1">
             <span className="text-red-600 text-4xl leading-none drop-shadow-sm">T</span>
             <div className="absolute bottom-0 w-full flex justify-between px-0.5">
@@ -21,9 +21,13 @@ export default function Footer() {
         {/* Voltic Logo */}
         <div className="flex flex-col items-center mt-2">
           <div className="text-2xl font-black text-red-500 tracking-widest flex items-center italic">
-            <span className="text-3xl mr-1 font-light opacity-80">=</span> VOLTIC
+            <div className="flex flex-col gap-1 mr-2 mt-1">
+               <div className="h-1 w-6 bg-[#36498c] rounded-full"></div>
+               <div className="h-1 w-4 bg-[#36498c] rounded-full"></div>
+            </div>
+            VOLTIC
           </div>
-          <span className="text-xs text-gray-400 mt-1 font-medium">Powered by voltic</span>
+          <span className="text-xs text-[#36498c] mt-1 font-medium opacity-50">Powered by voltic</span>
         </div>
       </div>
 
@@ -41,9 +45,9 @@ export default function Footer() {
 
       <div className="w-full h-px bg-gray-700/50 mb-8" />
 
-      <a href="mailto:info@tahmeedexpress.com" className="flex items-center gap-3 mb-8 text-sm font-medium hover:text-gray-400 transition-colors">
+      <a href="mailto:info@buscar.co.ke" className="flex items-center gap-3 mb-8 text-sm font-medium hover:text-gray-400 transition-colors">
         <Mail className="w-5 h-5" />
-        info@tahmeedexpress.com
+        info@buscar.co.ke
       </a>
 
       <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-gray-300 mb-10 font-medium">

@@ -274,7 +274,7 @@ export default function BookingForm() {
 
       <button 
         onClick={handleSearch}
-        className="w-full mt-6 bg-red-700 hover:bg-red-800 text-white font-bold py-4 rounded-full transition-colors text-lg shadow-md"
+        className="w-full mt-6 bg-[#555] hover:bg-gray-600 text-white font-bold py-4 rounded-full transition-colors text-lg shadow-md"
       >
         SEARCH BUS
       </button>
@@ -601,7 +601,7 @@ export default function BookingForm() {
         Book via WhatsApp
       </button>
       <p className="text-center text-xs text-gray-400 font-bold tracking-widest uppercase mt-4">
-        Authorized by Coast Bus
+        Authorized by Buscar
       </p>
     </div>
   );
@@ -612,7 +612,13 @@ export default function BookingForm() {
         <div className="text-center mb-6 text-sm font-medium text-gray-600 flex items-center justify-center gap-1.5">
           Book your next ticket using 
           <span className="font-black text-xl text-[#36498c] tracking-tight flex items-center">
-            <span className="text-red-500 bg-red-100 px-1 py-0.5 rounded leading-none text-sm mr-0.5">T</span>
+            <span className="text-red-600 text-2xl leading-none mr-0.5 relative">
+              T
+              <div className="absolute -bottom-1 w-full flex justify-between px-0.5">
+                 <div className="w-1 h-1 bg-red-600 rounded-full"></div>
+                 <div className="w-1 h-1 bg-red-600 rounded-full"></div>
+              </div>
+            </span>
             ravler
           </span>
         </div>

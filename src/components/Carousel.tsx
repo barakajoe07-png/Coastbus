@@ -41,7 +41,7 @@ export default function Carousel() {
           >
             {/* Top Tagline bar */}
             <div className="bg-black/60 backdrop-blur-sm absolute top-0 left-0 right-0 py-2 px-4 flex justify-between items-center z-20">
-              <img src="/tahmeed-logo.png" alt="Tahmeed Logo" className="h-8 object-contain" />
+              <img src="/buscar-logo.png" alt="Buscar Logo" className="h-8 object-contain" />
               <span className="text-white text-xs font-bold">{slide.tagline}</span>
             </div>
             

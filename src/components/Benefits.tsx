@@ -3,38 +3,45 @@ import { ShieldCheck, Clock, BookOpen, Wallet } from 'lucide-react';
 export default function Benefits() {
   const benefits = [
     { 
-      icon: ShieldCheck, 
-      title: 'Safety First', 
-      desc: 'Professional drivers and GPS tracked buses.',
-      iconColor: 'text-[#8b5a2b]',
-      bg: 'bg-stone-100'
+      icon: Wallet, 
+      title: 'Save', 
+      desc: 'Pay less when using our new Mobile App. You can save up to 25% of your Promo Cash...',
+      iconColor: 'text-[#e62933]',
+      bg: 'bg-[#ffebee]'
     },
     { 
       icon: Clock, 
-      title: 'Punctuality', 
-      desc: 'We value your time and stick to schedules.',
-      iconColor: 'text-orange-400',
-      bg: 'bg-orange-100'
+      title: 'Multiple Routes', 
+      desc: 'We cover multiple routes and the widest connectivity in Kenya.',
+      iconColor: 'text-[#36498c]',
+      bg: 'bg-[#eef2ff]'
+    },
+    { 
+      icon: ShieldCheck, 
+      title: 'Earn Credits', 
+      desc: 'Receive more credit during promotional periods which will be added into your Promo...',
+      iconColor: 'text-[#8b5a2b]',
+      bg: 'bg-[#fdf6e3]'
     },
     { 
       icon: BookOpen, 
-      title: 'Easy Booking', 
-      desc: 'Book and manage tickets effortlessly online.',
-      iconColor: 'text-red-600',
-      bg: 'bg-red-100'
+      title: 'Parcel Delivery', 
+      desc: 'We Deliver parcels in all major towns in the country.',
+      iconColor: 'text-[#e8b917]',
+      bg: 'bg-[#fffde7]'
     },
     { 
-      icon: Wallet, 
-      title: 'Affordable Rates', 
-      desc: 'Competitive pricing without compromising quality.',
-      iconColor: 'text-[#6b4c3a]',
-      bg: 'bg-stone-100'
+      icon: BookOpen, 
+      title: 'Fleet', 
+      desc: 'Our Fleet has VIP Treatment, WiFi onboard Power Outlets and Extra Legroom',
+      iconColor: 'text-gray-800',
+      bg: 'bg-gray-100'
     },
   ];
 
   return (
     <div className="px-5 py-6">
-      <h2 className="text-2xl font-bold text-gray-900 mb-1">Benefits</h2>
+      <h2 className="text-2xl font-bold text-gray-900 mb-1">Why Us</h2>
       <p className="text-gray-500 text-sm mb-6">Experience the best transport service in the region</p>
       
       <div className="flex flex-col gap-4">

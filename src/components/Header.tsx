@@ -17,7 +17,7 @@ export default function Header() {
       )}
       <header className="flex justify-between items-center p-4 bg-white shadow-sm border-b border-gray-100">
       <div className="flex items-center gap-2">
-        <img src="/tahmeed-logo.png" alt="Tahmeed Logo" className="h-10 object-contain" />
+        <img src="/buscar-logo.png" alt="Buscar Logo" className="h-10 object-contain" />
       </div>
       <div className="flex items-center gap-4 relative">
         <div className="text-xl leading-none">

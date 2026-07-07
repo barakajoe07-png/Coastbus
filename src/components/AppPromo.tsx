@@ -1,43 +1,27 @@
 export default function AppPromo() {
   return (
-    <div className="px-5 py-12 bg-white flex flex-col items-center border-t border-gray-100">
-      {/* Phone Mockup */}
-      <div className="relative w-[220px] h-[450px] border-[8px] border-[#1a1a1a] rounded-[2.5rem] overflow-hidden mb-8 shadow-2xl bg-white flex items-center justify-center">
-        {/* Notch */}
-        <div className="absolute top-0 w-32 h-6 bg-[#1a1a1a] rounded-b-3xl flex items-center justify-center gap-2">
-           <div className="w-12 h-1.5 bg-gray-800 rounded-full"></div>
-           <div className="w-2 h-2 rounded-full bg-indigo-900/50 border border-indigo-800/30"></div>
-        </div>
-        
-        {/* Screen Content */}
-        <div className="text-4xl font-black text-[#2e407e] flex items-center tracking-tight">
-          <div className="relative flex flex-col items-center mr-1">
-            <span className="text-red-500 text-5xl leading-none">T</span>
-            <div className="absolute bottom-1 w-full flex justify-between px-1">
-               <div className="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
-               <div className="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
-            </div>
-          </div>
-          ravler
-        </div>
-      </div>
-      
-      {/* App Store Buttons */}
-      <div className="flex flex-col gap-4 w-full max-w-[240px]">
-        <button className="bg-black hover:bg-gray-900 text-white rounded-xl px-5 py-3 transition-colors flex items-center justify-center">
+    <div className="px-5 py-6">
+      <div className="bg-[#cc0000] rounded-3xl overflow-hidden flex items-center relative h-56 shadow-lg">
+        <div className="p-6 w-1/2 z-10">
+          <h2 className="text-white text-2xl font-bold leading-tight mb-4">
+            <span className="text-[#ffcc00]">Download</span> our app on the playstore
+          </h2>
           <img 
             src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
             alt="Get it on Google Play" 
-            className="h-10" 
+            className="h-10 bg-black rounded-lg" 
           />
-        </button>
-        <button className="bg-black hover:bg-gray-900 text-white rounded-xl px-5 py-3 transition-colors flex items-center justify-center">
-           <img 
-             src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 
-             alt="Download on the App Store" 
-             className="h-10" 
-           />
-        </button>
+        </div>
+        
+        {/* Phone mock positioned on the right */}
+        <div className="absolute right-[-20px] top-6 w-56 h-[400px] bg-white rounded-3xl border-4 border-gray-200 shadow-2xl transform rotate-[-5deg]">
+           <div className="w-16 h-4 bg-gray-200 absolute top-0 left-1/2 -translate-x-1/2 rounded-b-xl"></div>
+           <div className="pt-12 px-4 flex flex-col items-center text-center">
+             <span className="text-xs text-gray-800 font-bold mb-1">Welcome to</span>
+             <img src="/buscar-logo.png" alt="Buscar" className="h-8 mb-4 object-contain" />
+             <div className="text-[10px] text-red-700 font-bold uppercase tracking-wider">Passenger & Parcel Services</div>
+           </div>
+        </div>
       </div>
     </div>
   );

@@ -5,8 +5,8 @@ export default function TopRoutes() {
   const routes = uniqueDestinations;
 
   return (
-    <div className="px-5 py-8 bg-gray-50/50 border-t border-gray-100 rounded-t-[2.5rem]">
-      <h2 className="text-[1.35rem] font-bold text-[#1b36d1] mb-5">Our top destinations</h2>
+    <div className="px-5 py-8 bg-white border-t border-gray-100 rounded-t-[2.5rem]">
+      <h2 className="text-[1.35rem] font-bold text-gray-900 mb-5">Our top routes</h2>
       <div className="flex flex-wrap gap-2.5">
         {routes.map((route, index) => (
           <button
@@ -19,12 +19,7 @@ export default function TopRoutes() {
                 } 
               }));
             }}
-            className={`px-5 py-2.5 rounded-full border text-xs font-bold transition-all shadow-sm
-              ${route === 'Mombasa' || route === 'Nairobi'
-                ? 'bg-[#1b36d1] text-white border-[#1b36d1]' 
-                : 'bg-white text-[#36498c] border-gray-200 hover:border-[#1b36d1] hover:text-[#1b36d1]'
-              }
-            `}
+            className="px-5 py-2.5 rounded-full border border-gray-200 bg-white text-gray-900 text-xs font-bold transition-all shadow-sm hover:border-gray-400"
           >
             {route.toUpperCase()}
           </button>
