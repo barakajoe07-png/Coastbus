@@ -57,7 +57,7 @@ export default function Carousel() {
                 {slide.title}
               </h3>
               <a 
-                href="https://wa.me/254710492539?text=Hello,%20I%20want%20to%20book%20a%20ticket"
+                href="https://wa.me/254754303484?text=Hello,%20I%20want%20to%20book%20a%20ticket"
                 target="_blank" rel="noreferrer"
                 className="bg-[#e62933] hover:bg-red-700 text-white text-xs font-bold px-4 py-2.5 rounded-full whitespace-nowrap shadow-lg transition-transform active:scale-95"
               >

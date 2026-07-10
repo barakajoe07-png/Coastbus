@@ -17,7 +17,7 @@ export default function Help() {
           <div>
             <h3 className="font-bold text-gray-900">Call Us</h3>
             <p className="text-sm text-gray-500 mb-2">Available 24/7 for urgent inquiries.</p>
-            <a href="tel:+254710492539" className="text-black font-bold">+254 710 492 539</a>
+            <a href="tel:+254754303484" className="text-black font-bold">+254 754 303 484</a>
           </div>
         </div>
 
@@ -26,7 +26,7 @@ export default function Help() {
           <div>
             <h3 className="font-bold text-gray-900">WhatsApp</h3>
             <p className="text-sm text-gray-500 mb-2">Fastest way to reach our booking agents.</p>
-            <a href="https://wa.me/254710492539" target="_blank" rel="noreferrer" className="text-[#00a859] font-bold">Chat with us</a>
+            <a href="https://wa.me/254754303484" target="_blank" rel="noreferrer" className="text-[#00a859] font-bold">Chat with us</a>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ export default function Help() {
           <div>
             <h3 className="font-bold text-gray-900">Email</h3>
             <p className="text-sm text-gray-500 mb-2">For general queries and feedback.</p>
-            <a href="mailto:support@coastbus.co.ke" className="text-red-500 font-bold">support@coastbus.co.ke</a>
+            <a href="mailto:info@buscar.co.ke" className="text-red-500 font-bold">info@buscar.co.ke</a>
           </div>
         </div>
       </div>

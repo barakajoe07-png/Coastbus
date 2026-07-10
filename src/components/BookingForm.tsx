@@ -170,7 +170,7 @@ export default function BookingForm() {
     text += `Luggage: ${luggage}\n`;
     if (medical) text += `Medical: ${medical}\n`;
 
-    const whatsappUrl = `https://wa.me/254710492539?text=${encodeURIComponent(text)}`;
+    const whatsappUrl = `https://wa.me/254754303484?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, '_blank');
   };
 
