@@ -32,7 +32,7 @@ export default function Carousel() {
   }, [slides.length]);
 
   return (
-    <div className="px-5 py-6">
+    <div className="px-1.5 py-6">
       <div className="relative rounded-2xl overflow-hidden shadow-lg h-56 flex flex-col">
         {slides.map((slide, index) => (
           <div 

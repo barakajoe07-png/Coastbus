@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page / Main Booking App -->
+  <url>
+    <loc>https://ais-pre-aopafuyqufkw6c56dxc6p7-556466100035.europe-west1.run.app/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Route Info Pages / Simulated Canonical Paths for SEO index optimization -->
+  <url>
+    <loc>https://ais-pre-aopafuyqufkw6c56dxc6p7-556466100035.europe-west1.run.app/?route=nairobi-mombasa</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ais-pre-aopafuyqufkw6c56dxc6p7-556466100035.europe-west1.run.app/?route=mombasa-nairobi</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ais-pre-aopafuyqufkw6c56dxc6p7-556466100035.europe-west1.run.app/?route=nairobi-kampala</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ais-pre-aopafuyqufkw6c56dxc6p7-556466100035.europe-west1.run.app/?route=nairobi-lamu</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ais-pre-aopafuyqufkw6c56dxc6p7-556466100035.europe-west1.run.app/?route=nairobi-mtwapa</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

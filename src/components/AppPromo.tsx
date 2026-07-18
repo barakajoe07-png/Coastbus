@@ -1,6 +1,8 @@
+import BuscarLogo from './BuscarLogo';
+
 export default function AppPromo() {
   return (
-    <div className="px-5 py-6">
+    <div className="px-1.5 py-6">
       <div className="bg-[#cc0000] rounded-3xl overflow-hidden flex items-center relative h-56 shadow-lg">
         <div className="p-6 w-1/2 z-10">
           <h2 className="text-white text-2xl font-bold leading-tight mb-4">
@@ -18,7 +20,9 @@ export default function AppPromo() {
            <div className="w-16 h-4 bg-gray-200 absolute top-0 left-1/2 -translate-x-1/2 rounded-b-xl"></div>
            <div className="pt-12 px-4 flex flex-col items-center text-center">
              <span className="text-xs text-gray-800 font-bold mb-1">Welcome to</span>
-             <img src="/buscar-logo.png" alt="Buscar" className="h-8 mb-4 object-contain" />
+             <div className="scale-75 origin-center mb-4">
+               <BuscarLogo />
+             </div>
              <div className="text-[10px] text-red-700 font-bold uppercase tracking-wider">Passenger & Parcel Services</div>
            </div>
         </div>

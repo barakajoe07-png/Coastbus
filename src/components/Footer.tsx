@@ -1,10 +1,11 @@
 import { Facebook, Twitter, Linkedin, Mail } from 'lucide-react';
+import BuscarLogo from './BuscarLogo';
 
 export default function Footer() {
   return (
     <footer className="bg-[#1a1a1a] text-white pt-12 pb-28 px-5 flex flex-col items-center text-center">
       <div className="flex flex-col items-center mb-10 gap-6">
-        <img src="/buscar-logo.png" alt="Buscar Logo" className="h-10 object-contain" />
+        <BuscarLogo light={true} />
 
         {/* Travler Logo */}
         <div className="text-3xl font-black flex items-center tracking-tight text-[#36498c] mt-2">
@@ -67,6 +68,10 @@ export default function Footer() {
           </svg>
         </a>
         <a href="#" className="hover:text-gray-400 transition-colors"><Linkedin className="w-6 h-6" fill="currentColor" strokeWidth={0} /></a>
+      </div>
+
+      <div className="text-center pt-8 px-3.5 text-[10px] text-gray-500 leading-relaxed border-t border-gray-800/40 w-full max-w-xs mt-8">
+        <p>© {new Date().getFullYear()} Buscar Online Ticket Booking. Powered by Travler & Voltic. All rights reserved.</p>
       </div>
     </footer>
   );
